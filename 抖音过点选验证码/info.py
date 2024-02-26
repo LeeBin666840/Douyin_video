@@ -5,5 +5,5 @@
 @FileName: info.py
 @Software: PyCharm
 """
-account='18374837346',
-password='libinzxc01250131'
+account='抖音账户',
+password='抖音密码'
