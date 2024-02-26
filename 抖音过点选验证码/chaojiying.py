@@ -60,7 +60,7 @@ class Chaojiying_Client(object):
 
 
 if __name__ == '__main__':
-    chaojiying = Chaojiying_Client('18374837346', 'libinzxc01250131', '96001')	#用户中心>>软件ID 生成一个替换 96001
+    chaojiying = Chaojiying_Client('18374837346', '密码', '96001')	#用户中心>>软件ID 生成一个替换 96001
     im = open('a.jpg', 'rb').read()													#本地图片文件路径 来替换 a.jpg 有时WIN系统须要//
     print(chaojiying.PostPic(im, 1902))												#1902 验证码类型  官方网站>>价格体系 3.4+版 print 后要加()
     #print chaojiying.PostPic(base64_str, 1902)  #此处为传入 base64代码
